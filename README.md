@@ -36,19 +36,19 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **Procedure**
 
-1. Open Quartus Prime and create a new project.
+1. Open Quartus II and create a new project wizard.
 
 2. Create a Verilog HDL file and enter the JK Flip-Flop code.
 
-3. Save the file and add it to the project.
+3. Click Compile to check for errors and build the design.
 
-4. Click Compile to check for errors and build the design.
+4. Save the file
 
 5. Go to Tools > Netlist Viewers > RTL Viewer to view and save the RTL schematic.
 
 6. Create a Vector Waveform File (.vwf) via File > New > University Program VWF.
 
-7. Add input/output nodes using Edit > Insert > Insert Node or Bus.
+7. Add input/output nodes using node finder.
 
 8. Apply different input combinations (J, K, Clock) in the waveform.
 
